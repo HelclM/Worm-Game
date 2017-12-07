@@ -1,0 +1,1343 @@
+desc: (none)
+cmd: ./worms
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=3339186
+mem_heap_B=5693352
+mem_heap_extra_B=16040
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=861027233
+mem_heap_B=5693352
+mem_heap_extra_B=16040
+mem_stacks_B=0
+heap_tree=detailed
+n3: 5693352 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 5600000 0x40B6E7: Texture::Texture(char const*, int, int) (Texture.cpp:10)
+  n0: 5600000 0x40289F: main (main.cpp:7)
+ n1: 72704 0x5830EFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n0: 20648 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=3
+#-----------
+time=898289552
+mem_heap_B=6531887
+mem_heap_extra_B=63377
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=934436043
+mem_heap_B=32600471
+mem_heap_extra_B=558257
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=973554501
+mem_heap_B=35145642
+mem_heap_extra_B=644062
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=1009579685
+mem_heap_B=36688839
+mem_heap_extra_B=644105
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=1055747354
+mem_heap_B=41280808
+mem_heap_extra_B=645656
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=1301733710
+mem_heap_B=41272580
+mem_heap_extra_B=645628
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=1307964010
+mem_heap_B=46743909
+mem_heap_extra_B=646267
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=1399909004
+mem_heap_B=53035365
+mem_heap_extra_B=646275
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=1423575178
+mem_heap_B=47716992
+mem_heap_extra_B=646104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=1454622504
+mem_heap_B=47716992
+mem_heap_extra_B=646104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=1487746848
+mem_heap_B=47716992
+mem_heap_extra_B=646104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=1534813523
+mem_heap_B=47716992
+mem_heap_extra_B=646104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=1566946141
+mem_heap_B=47716992
+mem_heap_extra_B=646104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=1620039116
+mem_heap_B=47716992
+mem_heap_extra_B=646104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=1655351749
+mem_heap_B=47716992
+mem_heap_extra_B=646104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=1675856919
+mem_heap_B=53180093
+mem_heap_extra_B=646715
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=1767800901
+mem_heap_B=53180129
+mem_heap_extra_B=646735
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=1773494880
+mem_heap_B=59471549
+mem_heap_extra_B=646723
+mem_stacks_B=0
+heap_tree=detailed
+n9: 59471549 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 16793616 0xAC67908: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+  n1: 16793616 0xAE30DFA: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n1: 16793616 0xADE0B6F: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+    n1: 16793616 0x8FC55FD: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+     n1: 16793616 0x8FC56B1: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+      n1: 16793616 0x8F93DB9: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+       n1: 16793616 0x8F940B7: glXCreateContext (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+        n2: 16793616 0x4F15337: X11_GL_CreateContext (SDL_x11opengl.c:593)
+         n1: 16793616 0x4F0388E: SDL_GL_CreateContext_REAL (SDL_video.c:3276)
+          n1: 16793616 0x4E98CCE: GL_CreateRenderer (SDL_render_gl.c:456)
+           n1: 16793616 0x4E8E047: SDL_CreateRenderer_REAL (SDL_render.c:265)
+            n1: 16793616 0x4051BA: MySDL::CreateWinRen(char const*) (MySDL.cpp:26)
+             n0: 16793616 0x40298C: main (main.cpp:17)
+         n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 14802944 0xB624D1F: ??? (in /usr/lib/x86_64-linux-gnu/libdrm_intel.so.1.0.0)
+  n1: 14700544 0xAE77E9E: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n1: 14700544 0xAE78201: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+    n1: 14700544 0xABE57E9: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+     n1: 14700544 0xABE5A30: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+      n1: 14700544 0xABE5E56: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+       n1: 14700544 0x4E981F2: GL_UpdateTexture (SDL_render_gl.c:868)
+        n1: 14700544 0x4E8EF6C: SDL_UpdateTexture_REAL.part.4 (SDL_render.c:833)
+         n3: 14700544 0x4E92F5F: SDL_CreateTextureFromSurface_REAL (SDL_render.c:813)
+          n1: 12582912 0x40BBF0: Rocket::Rocket() (Rocket.cpp:7)
+           n2: 12582912 0x407124: Worm::Worm(int, int) (Worm.cpp:36)
+            n1: 6291456 0x408899: Control::createTeams(int) (Control.cpp:308)
+             n0: 6291456 0x4029C7: main (main.cpp:19)
+            n1: 6291456 0x4088DD: Control::createTeams(int) (Control.cpp:310)
+             n0: 6291456 0x4029C7: main (main.cpp:19)
+          n1: 1835008 0x40528A: MySDL::CreateWinRen(char const*) (MySDL.cpp:36)
+           n0: 1835008 0x40298C: main (main.cpp:17)
+          n0: 282624 in 4 places, all below massif's threshold (1.00%)
+  n0: 102400 in 2 places, all below massif's threshold (1.00%)
+ n2: 5768532 0xAD4E0C0: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+  n0: 4799636 in 1140 places, all below massif's threshold (1.00%)
+  n1: 968896 0xAD4EA4D: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n0: 968896 in 2 places, all below massif's threshold (1.00%)
+ n1: 5600000 0x40B6E7: Texture::Texture(char const*, int, int) (Texture.cpp:10)
+  n0: 5600000 0x40289F: main (main.cpp:7)
+ n2: 5533748 0x4EFD27A: SDL_CreateRGBSurface_REAL (SDL_surface.c:83)
+  n1: 5533748 0x516924F: IMG_LoadPNG_RW (IMG_png.c:479)
+   n2: 5533748 0x51614E7: IMG_LoadTyped_RW (IMG.c:198)
+    n1: 5488000 0x40BBBA: Rocket::Rocket() (Rocket.cpp:4)
+     n2: 5488000 0x407124: Worm::Worm(int, int) (Worm.cpp:36)
+      n1: 5488000 0x4088DD: Control::createTeams(int) (Control.cpp:310)
+       n0: 5488000 0x4029C7: main (main.cpp:19)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+    n0: 45748 in 4 places, all below massif's threshold (1.00%)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 5488000 0x4EFC78A: SDL_CreateRGBSurfaceWithFormat_REAL (SDL_surface.c:83)
+  n1: 5488000 0x4EFC90A: SDL_ConvertSurface_REAL (SDL_surface.c:127)
+   n2: 5488000 0x4E92F17: SDL_CreateTextureFromSurface_REAL (SDL_render.c:559)
+    n1: 5488000 0x40BBF0: Rocket::Rocket() (Rocket.cpp:7)
+     n2: 5488000 0x407124: Worm::Worm(int, int) (Worm.cpp:36)
+      n1: 5488000 0x4088DD: Control::createTeams(int) (Control.cpp:310)
+       n0: 5488000 0x4029C7: main (main.cpp:19)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+    n0: 0 in 5 places, all below massif's threshold (1.00%)
+ n1: 2915616 0xABA6212: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+  n1: 2915616 0xAC585F6: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n1: 2915616 0xAC959C6: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+    n1: 2915616 0xAE30E2D: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+     n1: 2915616 0xADE0B6F: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+      n1: 2915616 0x8FC55FD: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+       n1: 2915616 0x8FC56B1: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+        n1: 2915616 0x8F93DB9: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+         n1: 2915616 0x8F940B7: glXCreateContext (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+          n2: 2915616 0x4F15337: X11_GL_CreateContext (SDL_x11opengl.c:593)
+           n1: 2915616 0x4F0388E: SDL_GL_CreateContext_REAL (SDL_video.c:3276)
+            n1: 2915616 0x4E98CCE: GL_CreateRenderer (SDL_render_gl.c:456)
+             n1: 2915616 0x4E8E047: SDL_CreateRenderer_REAL (SDL_render.c:265)
+              n1: 2915616 0x4051BA: MySDL::CreateWinRen(char const*) (MySDL.cpp:26)
+               n0: 2915616 0x40298C: main (main.cpp:17)
+           n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 1416554 0xABA61BD: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+  n1: 1356992 0xAC0C73D: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n0: 1356992 in 14 places, all below massif's threshold (1.00%)
+  n0: 59562 in 5 places, all below massif's threshold (1.00%)
+ n0: 1152539 in 417 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=21
+#-----------
+time=1826631034
+mem_heap_B=48525609
+mem_heap_extra_B=645695
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=1878158264
+mem_heap_B=48595241
+mem_heap_extra_B=645831
+mem_stacks_B=0
+heap_tree=detailed
+n7: 48595241 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 16793616 0xAC67908: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+  n1: 16793616 0xAE30DFA: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n1: 16793616 0xADE0B6F: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+    n1: 16793616 0x8FC55FD: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+     n1: 16793616 0x8FC56B1: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+      n1: 16793616 0x8F93DB9: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+       n1: 16793616 0x8F940B7: glXCreateContext (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+        n2: 16793616 0x4F15337: X11_GL_CreateContext (SDL_x11opengl.c:593)
+         n1: 16793616 0x4F0388E: SDL_GL_CreateContext_REAL (SDL_video.c:3276)
+          n1: 16793616 0x4E98CCE: GL_CreateRenderer (SDL_render_gl.c:456)
+           n1: 16793616 0x4E8E047: SDL_CreateRenderer_REAL (SDL_render.c:265)
+            n1: 16793616 0x4051BA: MySDL::CreateWinRen(char const*) (MySDL.cpp:26)
+             n0: 16793616 0x40298C: main (main.cpp:17)
+         n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 14938112 0xB624D1F: ??? (in /usr/lib/x86_64-linux-gnu/libdrm_intel.so.1.0.0)
+  n1: 14770176 0xAE77E9E: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n1: 14770176 0xAE78201: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+    n1: 14770176 0xABE57E9: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+     n1: 14770176 0xABE5A30: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+      n1: 14770176 0xABE5E56: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+       n1: 14770176 0x4E981F2: GL_UpdateTexture (SDL_render_gl.c:868)
+        n1: 14770176 0x4E8EF6C: SDL_UpdateTexture_REAL.part.4 (SDL_render.c:833)
+         n3: 14770176 0x4E92F5F: SDL_CreateTextureFromSurface_REAL (SDL_render.c:813)
+          n1: 12582912 0x40BBF0: Rocket::Rocket() (Rocket.cpp:7)
+           n2: 12582912 0x407124: Worm::Worm(int, int) (Worm.cpp:36)
+            n1: 6291456 0x408899: Control::createTeams(int) (Control.cpp:308)
+             n0: 6291456 0x4029C7: main (main.cpp:19)
+            n1: 6291456 0x4088DD: Control::createTeams(int) (Control.cpp:310)
+             n0: 6291456 0x4029C7: main (main.cpp:19)
+          n1: 1835008 0x40528A: MySDL::CreateWinRen(char const*) (MySDL.cpp:36)
+           n0: 1835008 0x40298C: main (main.cpp:17)
+          n0: 352256 in 4 places, all below massif's threshold (1.00%)
+  n0: 167936 in 3 places, all below massif's threshold (1.00%)
+ n2: 5768676 0xAD4E0C0: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+  n0: 4799780 in 1143 places, all below massif's threshold (1.00%)
+  n2: 968896 0xAD4EA4D: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n1: 547552 0xAED35A7: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+    n1: 547552 0xAED3F7C: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+     n1: 547552 0xAE7FEBF: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+      n1: 547552 0xAE74EC3: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+       n1: 547552 0xADE0EAD: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+        n1: 547552 0x8FC5A95: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+         n1: 547552 0x8F985CF: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+          n1: 547552 0x8F94889: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+           n1: 547552 0x8F94CC0: glXQueryExtensionsString (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+            n1: 547552 0x4F1403D: X11_GL_LoadLibrary (SDL_x11opengl.c:330)
+             n1: 547552 0x4F04B09: SDL_CreateWindow_REAL (SDL_video.c:2729)
+              n1: 547552 0x4F04538: SDL_VideoInit_REAL (SDL_video.c:210)
+               n1: 547552 0x4F04D41: SDL_CreateWindow_REAL (SDL_video.c:1336)
+                n1: 547552 0x405195: MySDL::CreateWinRen(char const*) (MySDL.cpp:24)
+                 n0: 547552 0x40298C: main (main.cpp:17)
+   n0: 421344 in 1 place, below massif's threshold (1.00%)
+ n1: 5600000 0x40B6E7: Texture::Texture(char const*, int, int) (Texture.cpp:10)
+  n0: 5600000 0x40289F: main (main.cpp:7)
+ n1: 2915616 0xABA6212: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+  n1: 2915616 0xAC585F6: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n1: 2915616 0xAC959C6: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+    n1: 2915616 0xAE30E2D: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+     n1: 2915616 0xADE0B6F: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+      n1: 2915616 0x8FC55FD: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+       n1: 2915616 0x8FC56B1: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+        n1: 2915616 0x8F93DB9: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+         n1: 2915616 0x8F940B7: glXCreateContext (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+          n2: 2915616 0x4F15337: X11_GL_CreateContext (SDL_x11opengl.c:593)
+           n1: 2915616 0x4F0388E: SDL_GL_CreateContext_REAL (SDL_video.c:3276)
+            n1: 2915616 0x4E98CCE: GL_CreateRenderer (SDL_render_gl.c:456)
+             n1: 2915616 0x4E8E047: SDL_CreateRenderer_REAL (SDL_render.c:265)
+              n1: 2915616 0x4051BA: MySDL::CreateWinRen(char const*) (MySDL.cpp:26)
+               n0: 2915616 0x40298C: main (main.cpp:17)
+           n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 1416554 0xABA61BD: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+  n1: 1356992 0xAC0C73D: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n0: 1356992 in 14 places, all below massif's threshold (1.00%)
+  n0: 59562 in 5 places, all below massif's threshold (1.00%)
+ n0: 1162667 in 421 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=23
+#-----------
+time=1913694225
+mem_heap_B=48599337
+mem_heap_extra_B=645959
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=1963206705
+mem_heap_B=48605481
+mem_heap_extra_B=646151
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=1998949648
+mem_heap_B=48610089
+mem_heap_extra_B=646295
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=2049247162
+mem_heap_B=48616745
+mem_heap_extra_B=646503
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=2089531725
+mem_heap_B=48621865
+mem_heap_extra_B=646663
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=2113727253
+mem_heap_B=48624937
+mem_heap_extra_B=646759
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=2150019787
+mem_heap_B=48629545
+mem_heap_extra_B=646903
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=2197983865
+mem_heap_B=48635465
+mem_heap_extra_B=647111
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=2251030765
+mem_heap_B=49088233
+mem_heap_extra_B=647287
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=2295790290
+mem_heap_B=49153549
+mem_heap_extra_B=647307
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=2332237638
+mem_heap_B=49153549
+mem_heap_extra_B=647307
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=2357345649
+mem_heap_B=49153549
+mem_heap_extra_B=647307
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=2388095536
+mem_heap_B=49153549
+mem_heap_extra_B=647307
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=2429644819
+mem_heap_B=49153549
+mem_heap_extra_B=647307
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=2490157882
+mem_heap_B=49153549
+mem_heap_extra_B=647307
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=2522442983
+mem_heap_B=49153549
+mem_heap_extra_B=647307
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=2560782364
+mem_heap_B=49153549
+mem_heap_extra_B=647307
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=2593053061
+mem_heap_B=49153549
+mem_heap_extra_B=647307
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=2621288491
+mem_heap_B=49153769
+mem_heap_extra_B=647295
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=2651568626
+mem_heap_B=54888374
+mem_heap_extra_B=650842
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=2684062652
+mem_heap_B=58791089
+mem_heap_extra_B=655255
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=2812979575
+mem_heap_B=58987737
+mem_heap_extra_B=655183
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=2854970917
+mem_heap_B=58992857
+mem_heap_extra_B=655343
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=2891363233
+mem_heap_B=58997465
+mem_heap_extra_B=655487
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=2922583879
+mem_heap_B=59001561
+mem_heap_extra_B=655615
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=2957320357
+mem_heap_B=59006169
+mem_heap_extra_B=655759
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=2997617223
+mem_heap_B=59011289
+mem_heap_extra_B=655919
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=3001650495
+mem_heap_B=59011801
+mem_heap_extra_B=655935
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=3005683594
+mem_heap_B=59012313
+mem_heap_extra_B=655951
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=3009716523
+mem_heap_B=59012825
+mem_heap_extra_B=655967
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=3013748924
+mem_heap_B=59013337
+mem_heap_extra_B=655983
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=3017781325
+mem_heap_B=59013849
+mem_heap_extra_B=655999
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=3021813726
+mem_heap_B=59014361
+mem_heap_extra_B=656015
+mem_stacks_B=0
+heap_tree=detailed
+n7: 59014361 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 24866816 0xB624D1F: ??? (in /usr/lib/x86_64-linux-gnu/libdrm_intel.so.1.0.0)
+  n1: 22896640 0xAE77E9E: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n1: 22896640 0xAE78201: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+    n1: 22896640 0xABE57E9: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+     n1: 22896640 0xABE5A30: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+      n1: 22896640 0xABE5E56: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+       n1: 22896640 0x4E981F2: GL_UpdateTexture (SDL_render_gl.c:868)
+        n1: 22896640 0x4E8EF6C: SDL_UpdateTexture_REAL.part.4 (SDL_render.c:833)
+         n4: 22896640 0x4E92F5F: SDL_CreateTextureFromSurface_REAL (SDL_render.c:813)
+          n1: 12582912 0x40BBF0: Rocket::Rocket() (Rocket.cpp:7)
+           n2: 12582912 0x407124: Worm::Worm(int, int) (Worm.cpp:36)
+            n1: 6291456 0x408899: Control::createTeams(int) (Control.cpp:308)
+             n0: 6291456 0x4029C7: main (main.cpp:19)
+            n1: 6291456 0x4088DD: Control::createTeams(int) (Control.cpp:310)
+             n0: 6291456 0x4029C7: main (main.cpp:19)
+          n2: 8208384 0x406335: MySDL::RenderText(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, SDL_Color) (MySDL.cpp:218)
+           n1: 7864320 0x40686B: MySDL::DrawTime(Timer*) (MySDL.cpp:272)
+            n1: 7864320 0x406677: MySDL::drawGame() (MySDL.cpp:256)
+             n0: 7864320 0x4029FF: main (main.cpp:25)
+           n0: 344064 in 2 places, all below massif's threshold (1.00%)
+          n1: 1835008 0x40528A: MySDL::CreateWinRen(char const*) (MySDL.cpp:36)
+           n0: 1835008 0x40298C: main (main.cpp:17)
+          n0: 270336 in 3 places, all below massif's threshold (1.00%)
+  n1: 1900544 0xAE7A564: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n1: 1900544 0xAE7A5B8: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+    n1: 1900544 0xAE34ADB: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+     n1: 1900544 0xAE353C8: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+      n1: 1900544 0xAE356D4: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+       n1: 1900544 0xAE4A41F: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+        n1: 1900544 0xAE33B3A: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+         n2: 1900544 0xAC2C4B2: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+          n1: 1900544 0xAC181FA: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+           n1: 1900544 0xAC29561: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+            n1: 1900544 0xAB26978: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+             n1: 1900544 0xAB27DE5: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+              n1: 1900544 0x4E9B6F4: GL_RenderCopy (SDL_render_gl.c:1343)
+               n1: 1900544 0x4E91FB6: SDL_RenderCopy_REAL (SDL_render.c:1761)
+                n1: 1900544 0x4054C4: MySDL::DrawBack() (MySDL.cpp:56)
+                 n1: 1900544 0x4063C3: MySDL::drawGame() (MySDL.cpp:230)
+                  n0: 1900544 0x4029FF: main (main.cpp:25)
+          n0: 0 in 1 place, below massif's threshold (1.00%)
+  n0: 69632 in 2 places, all below massif's threshold (1.00%)
+ n1: 16793616 0xAC67908: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+  n1: 16793616 0xAE30DFA: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n1: 16793616 0xADE0B6F: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+    n1: 16793616 0x8FC55FD: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+     n1: 16793616 0x8FC56B1: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+      n1: 16793616 0x8F93DB9: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+       n1: 16793616 0x8F940B7: glXCreateContext (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+        n2: 16793616 0x4F15337: X11_GL_CreateContext (SDL_x11opengl.c:593)
+         n1: 16793616 0x4F0388E: SDL_GL_CreateContext_REAL (SDL_video.c:3276)
+          n1: 16793616 0x4E98CCE: GL_CreateRenderer (SDL_render_gl.c:456)
+           n1: 16793616 0x4E8E047: SDL_CreateRenderer_REAL (SDL_render.c:265)
+            n1: 16793616 0x4051BA: MySDL::CreateWinRen(char const*) (MySDL.cpp:26)
+             n0: 16793616 0x40298C: main (main.cpp:17)
+         n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 5771876 0xAD4E0C0: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+  n0: 4802980 in 1143 places, all below massif's threshold (1.00%)
+  n1: 968896 0xAD4EA4D: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n0: 968896 in 2 places, all below massif's threshold (1.00%)
+ n1: 5600000 0x40B6E7: Texture::Texture(char const*, int, int) (Texture.cpp:10)
+  n0: 5600000 0x40289F: main (main.cpp:7)
+ n1: 2915616 0xABA6212: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+  n1: 2915616 0xAC585F6: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n1: 2915616 0xAC959C6: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+    n1: 2915616 0xAE30E2D: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+     n1: 2915616 0xADE0B6F: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+      n1: 2915616 0x8FC55FD: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+       n1: 2915616 0x8FC56B1: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+        n1: 2915616 0x8F93DB9: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+         n1: 2915616 0x8F940B7: glXCreateContext (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+          n2: 2915616 0x4F15337: X11_GL_CreateContext (SDL_x11opengl.c:593)
+           n1: 2915616 0x4F0388E: SDL_GL_CreateContext_REAL (SDL_video.c:3276)
+            n1: 2915616 0x4E98CCE: GL_CreateRenderer (SDL_render_gl.c:456)
+             n1: 2915616 0x4E8E047: SDL_CreateRenderer_REAL (SDL_render.c:265)
+              n1: 2915616 0x4051BA: MySDL::CreateWinRen(char const*) (MySDL.cpp:26)
+               n0: 2915616 0x40298C: main (main.cpp:17)
+           n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 1649883 in 425 places, all below massif's threshold (1.00%)
+ n2: 1416554 0xABA61BD: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+  n1: 1356992 0xAC0C73D: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n0: 1356992 in 14 places, all below massif's threshold (1.00%)
+  n0: 59562 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=56
+#-----------
+time=3025846154
+mem_heap_B=59014873
+mem_heap_extra_B=656031
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=3029878555
+mem_heap_B=59015385
+mem_heap_extra_B=656047
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=3033911668
+mem_heap_B=59015897
+mem_heap_extra_B=656063
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=3037947918
+mem_heap_B=59016433
+mem_heap_extra_B=656095
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=3041980480
+mem_heap_B=59016945
+mem_heap_extra_B=656111
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=3046013653
+mem_heap_B=59017489
+mem_heap_extra_B=656135
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=3050046054
+mem_heap_B=59018001
+mem_heap_extra_B=656151
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=3054079717
+mem_heap_B=59018507
+mem_heap_extra_B=656173
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=3058112118
+mem_heap_B=59019019
+mem_heap_extra_B=656189
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=3062144519
+mem_heap_B=59019531
+mem_heap_extra_B=656205
+mem_stacks_B=0
+heap_tree=detailed
+n7: 59019531 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 24866816 0xB624D1F: ??? (in /usr/lib/x86_64-linux-gnu/libdrm_intel.so.1.0.0)
+  n1: 22896640 0xAE77E9E: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n1: 22896640 0xAE78201: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+    n1: 22896640 0xABE57E9: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+     n1: 22896640 0xABE5A30: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+      n1: 22896640 0xABE5E56: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+       n1: 22896640 0x4E981F2: GL_UpdateTexture (SDL_render_gl.c:868)
+        n1: 22896640 0x4E8EF6C: SDL_UpdateTexture_REAL.part.4 (SDL_render.c:833)
+         n4: 22896640 0x4E92F5F: SDL_CreateTextureFromSurface_REAL (SDL_render.c:813)
+          n1: 12582912 0x40BBF0: Rocket::Rocket() (Rocket.cpp:7)
+           n2: 12582912 0x407124: Worm::Worm(int, int) (Worm.cpp:36)
+            n1: 6291456 0x408899: Control::createTeams(int) (Control.cpp:308)
+             n0: 6291456 0x4029C7: main (main.cpp:19)
+            n1: 6291456 0x4088DD: Control::createTeams(int) (Control.cpp:310)
+             n0: 6291456 0x4029C7: main (main.cpp:19)
+          n2: 8208384 0x406335: MySDL::RenderText(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, SDL_Color) (MySDL.cpp:218)
+           n1: 7864320 0x40686B: MySDL::DrawTime(Timer*) (MySDL.cpp:272)
+            n1: 7864320 0x406677: MySDL::drawGame() (MySDL.cpp:256)
+             n0: 7864320 0x4029FF: main (main.cpp:25)
+           n0: 344064 in 2 places, all below massif's threshold (1.00%)
+          n1: 1835008 0x40528A: MySDL::CreateWinRen(char const*) (MySDL.cpp:36)
+           n0: 1835008 0x40298C: main (main.cpp:17)
+          n0: 270336 in 3 places, all below massif's threshold (1.00%)
+  n1: 1900544 0xAE7A564: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n1: 1900544 0xAE7A5B8: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+    n1: 1900544 0xAE34ADB: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+     n1: 1900544 0xAE353C8: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+      n1: 1900544 0xAE356D4: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+       n1: 1900544 0xAE4A41F: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+        n1: 1900544 0xAE33B3A: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+         n2: 1900544 0xAC2C4B2: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+          n1: 1900544 0xAC181FA: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+           n1: 1900544 0xAC29561: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+            n1: 1900544 0xAB26978: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+             n1: 1900544 0xAB27DE5: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+              n1: 1900544 0x4E9B6F4: GL_RenderCopy (SDL_render_gl.c:1343)
+               n1: 1900544 0x4E91FB6: SDL_RenderCopy_REAL (SDL_render.c:1761)
+                n1: 1900544 0x4054C4: MySDL::DrawBack() (MySDL.cpp:56)
+                 n1: 1900544 0x4063C3: MySDL::drawGame() (MySDL.cpp:230)
+                  n0: 1900544 0x4029FF: main (main.cpp:25)
+          n0: 0 in 1 place, below massif's threshold (1.00%)
+  n0: 69632 in 2 places, all below massif's threshold (1.00%)
+ n1: 16793616 0xAC67908: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+  n1: 16793616 0xAE30DFA: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n1: 16793616 0xADE0B6F: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+    n1: 16793616 0x8FC55FD: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+     n1: 16793616 0x8FC56B1: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+      n1: 16793616 0x8F93DB9: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+       n1: 16793616 0x8F940B7: glXCreateContext (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+        n2: 16793616 0x4F15337: X11_GL_CreateContext (SDL_x11opengl.c:593)
+         n1: 16793616 0x4F0388E: SDL_GL_CreateContext_REAL (SDL_video.c:3276)
+          n1: 16793616 0x4E98CCE: GL_CreateRenderer (SDL_render_gl.c:456)
+           n1: 16793616 0x4E8E047: SDL_CreateRenderer_REAL (SDL_render.c:265)
+            n1: 16793616 0x4051BA: MySDL::CreateWinRen(char const*) (MySDL.cpp:26)
+             n0: 16793616 0x40298C: main (main.cpp:17)
+         n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 5771876 0xAD4E0C0: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+  n0: 4802980 in 1143 places, all below massif's threshold (1.00%)
+  n1: 968896 0xAD4EA4D: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n0: 968896 in 2 places, all below massif's threshold (1.00%)
+ n1: 5600000 0x40B6E7: Texture::Texture(char const*, int, int) (Texture.cpp:10)
+  n0: 5600000 0x40289F: main (main.cpp:7)
+ n1: 2915616 0xABA6212: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+  n1: 2915616 0xAC585F6: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n1: 2915616 0xAC959C6: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+    n1: 2915616 0xAE30E2D: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+     n1: 2915616 0xADE0B6F: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+      n1: 2915616 0x8FC55FD: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+       n1: 2915616 0x8FC56B1: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+        n1: 2915616 0x8F93DB9: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+         n1: 2915616 0x8F940B7: glXCreateContext (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+          n2: 2915616 0x4F15337: X11_GL_CreateContext (SDL_x11opengl.c:593)
+           n1: 2915616 0x4F0388E: SDL_GL_CreateContext_REAL (SDL_video.c:3276)
+            n1: 2915616 0x4E98CCE: GL_CreateRenderer (SDL_render_gl.c:456)
+             n1: 2915616 0x4E8E047: SDL_CreateRenderer_REAL (SDL_render.c:265)
+              n1: 2915616 0x4051BA: MySDL::CreateWinRen(char const*) (MySDL.cpp:26)
+               n0: 2915616 0x40298C: main (main.cpp:17)
+           n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 1655053 in 425 places, all below massif's threshold (1.00%)
+ n2: 1416554 0xABA61BD: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+  n1: 1356992 0xAC0C73D: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n0: 1356992 in 14 places, all below massif's threshold (1.00%)
+  n0: 59562 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=66
+#-----------
+time=3066176920
+mem_heap_B=59020043
+mem_heap_extra_B=656221
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=3070209348
+mem_heap_B=59020555
+mem_heap_extra_B=656237
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=3074241749
+mem_heap_B=59021067
+mem_heap_extra_B=656253
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=3078274150
+mem_heap_B=59021579
+mem_heap_extra_B=656269
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=3082306551
+mem_heap_B=59022091
+mem_heap_extra_B=656285
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=3086338979
+mem_heap_B=59022603
+mem_heap_extra_B=656301
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=3090371380
+mem_heap_B=59023115
+mem_heap_extra_B=656317
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=3094403781
+mem_heap_B=59023627
+mem_heap_extra_B=656333
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=3098436182
+mem_heap_B=59024139
+mem_heap_extra_B=656349
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=3102468610
+mem_heap_B=59024651
+mem_heap_extra_B=656365
+mem_stacks_B=0
+heap_tree=detailed
+n7: 59024651 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 24866816 0xB624D1F: ??? (in /usr/lib/x86_64-linux-gnu/libdrm_intel.so.1.0.0)
+  n1: 22896640 0xAE77E9E: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n1: 22896640 0xAE78201: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+    n1: 22896640 0xABE57E9: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+     n1: 22896640 0xABE5A30: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+      n1: 22896640 0xABE5E56: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+       n1: 22896640 0x4E981F2: GL_UpdateTexture (SDL_render_gl.c:868)
+        n1: 22896640 0x4E8EF6C: SDL_UpdateTexture_REAL.part.4 (SDL_render.c:833)
+         n4: 22896640 0x4E92F5F: SDL_CreateTextureFromSurface_REAL (SDL_render.c:813)
+          n1: 12582912 0x40BBF0: Rocket::Rocket() (Rocket.cpp:7)
+           n2: 12582912 0x407124: Worm::Worm(int, int) (Worm.cpp:36)
+            n1: 6291456 0x408899: Control::createTeams(int) (Control.cpp:308)
+             n0: 6291456 0x4029C7: main (main.cpp:19)
+            n1: 6291456 0x4088DD: Control::createTeams(int) (Control.cpp:310)
+             n0: 6291456 0x4029C7: main (main.cpp:19)
+          n2: 8208384 0x406335: MySDL::RenderText(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, SDL_Color) (MySDL.cpp:218)
+           n1: 7864320 0x40686B: MySDL::DrawTime(Timer*) (MySDL.cpp:272)
+            n1: 7864320 0x406677: MySDL::drawGame() (MySDL.cpp:256)
+             n0: 7864320 0x4029FF: main (main.cpp:25)
+           n0: 344064 in 2 places, all below massif's threshold (1.00%)
+          n1: 1835008 0x40528A: MySDL::CreateWinRen(char const*) (MySDL.cpp:36)
+           n0: 1835008 0x40298C: main (main.cpp:17)
+          n0: 270336 in 3 places, all below massif's threshold (1.00%)
+  n1: 1900544 0xAE7A564: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n1: 1900544 0xAE7A5B8: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+    n1: 1900544 0xAE34ADB: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+     n1: 1900544 0xAE353C8: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+      n1: 1900544 0xAE356D4: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+       n1: 1900544 0xAE4A41F: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+        n1: 1900544 0xAE33B3A: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+         n2: 1900544 0xAC2C4B2: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+          n1: 1900544 0xAC181FA: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+           n1: 1900544 0xAC29561: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+            n1: 1900544 0xAB26978: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+             n1: 1900544 0xAB27DE5: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+              n1: 1900544 0x4E9B6F4: GL_RenderCopy (SDL_render_gl.c:1343)
+               n1: 1900544 0x4E91FB6: SDL_RenderCopy_REAL (SDL_render.c:1761)
+                n1: 1900544 0x4054C4: MySDL::DrawBack() (MySDL.cpp:56)
+                 n1: 1900544 0x4063C3: MySDL::drawGame() (MySDL.cpp:230)
+                  n0: 1900544 0x4029FF: main (main.cpp:25)
+          n0: 0 in 1 place, below massif's threshold (1.00%)
+  n0: 69632 in 2 places, all below massif's threshold (1.00%)
+ n1: 16793616 0xAC67908: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+  n1: 16793616 0xAE30DFA: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n1: 16793616 0xADE0B6F: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+    n1: 16793616 0x8FC55FD: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+     n1: 16793616 0x8FC56B1: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+      n1: 16793616 0x8F93DB9: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+       n1: 16793616 0x8F940B7: glXCreateContext (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+        n2: 16793616 0x4F15337: X11_GL_CreateContext (SDL_x11opengl.c:593)
+         n1: 16793616 0x4F0388E: SDL_GL_CreateContext_REAL (SDL_video.c:3276)
+          n1: 16793616 0x4E98CCE: GL_CreateRenderer (SDL_render_gl.c:456)
+           n1: 16793616 0x4E8E047: SDL_CreateRenderer_REAL (SDL_render.c:265)
+            n1: 16793616 0x4051BA: MySDL::CreateWinRen(char const*) (MySDL.cpp:26)
+             n0: 16793616 0x40298C: main (main.cpp:17)
+         n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 5771876 0xAD4E0C0: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+  n0: 4802980 in 1143 places, all below massif's threshold (1.00%)
+  n1: 968896 0xAD4EA4D: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n0: 968896 in 2 places, all below massif's threshold (1.00%)
+ n1: 5600000 0x40B6E7: Texture::Texture(char const*, int, int) (Texture.cpp:10)
+  n0: 5600000 0x40289F: main (main.cpp:7)
+ n1: 2915616 0xABA6212: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+  n1: 2915616 0xAC585F6: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n1: 2915616 0xAC959C6: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+    n1: 2915616 0xAE30E2D: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+     n1: 2915616 0xADE0B6F: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+      n1: 2915616 0x8FC55FD: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+       n1: 2915616 0x8FC56B1: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+        n1: 2915616 0x8F93DB9: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+         n1: 2915616 0x8F940B7: glXCreateContext (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+          n2: 2915616 0x4F15337: X11_GL_CreateContext (SDL_x11opengl.c:593)
+           n1: 2915616 0x4F0388E: SDL_GL_CreateContext_REAL (SDL_video.c:3276)
+            n1: 2915616 0x4E98CCE: GL_CreateRenderer (SDL_render_gl.c:456)
+             n1: 2915616 0x4E8E047: SDL_CreateRenderer_REAL (SDL_render.c:265)
+              n1: 2915616 0x4051BA: MySDL::CreateWinRen(char const*) (MySDL.cpp:26)
+               n0: 2915616 0x40298C: main (main.cpp:17)
+           n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 1660173 in 425 places, all below massif's threshold (1.00%)
+ n2: 1416554 0xABA61BD: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+  n1: 1356992 0xAC0C73D: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n0: 1356992 in 14 places, all below massif's threshold (1.00%)
+  n0: 59562 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=76
+#-----------
+time=3106022370
+mem_heap_B=58959403
+mem_heap_extra_B=656365
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=3109371279
+mem_heap_B=58828468
+mem_heap_extra_B=656404
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=3112769958
+mem_heap_B=59745872
+mem_heap_extra_B=656488
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=79
+#-----------
+time=3113714782
+mem_heap_B=60110453
+mem_heap_extra_B=656851
+mem_stacks_B=0
+heap_tree=detailed
+n7: 60110453 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 25866240 0xB624D1F: ??? (in /usr/lib/x86_64-linux-gnu/libdrm_intel.so.1.0.0)
+  n1: 22978560 0xAE77E9E: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n1: 22978560 0xAE78201: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+    n1: 22978560 0xABE57E9: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+     n1: 22978560 0xABE5A30: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+      n1: 22978560 0xABE5E56: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+       n1: 22978560 0x4E981F2: GL_UpdateTexture (SDL_render_gl.c:868)
+        n1: 22978560 0x4E8EF6C: SDL_UpdateTexture_REAL.part.4 (SDL_render.c:833)
+         n4: 22978560 0x4E92F5F: SDL_CreateTextureFromSurface_REAL (SDL_render.c:813)
+          n1: 12582912 0x40BBF0: Rocket::Rocket() (Rocket.cpp:7)
+           n2: 12582912 0x407124: Worm::Worm(int, int) (Worm.cpp:36)
+            n1: 6291456 0x408899: Control::createTeams(int) (Control.cpp:308)
+             n0: 6291456 0x4029C7: main (main.cpp:19)
+            n1: 6291456 0x4088DD: Control::createTeams(int) (Control.cpp:310)
+             n0: 6291456 0x4029C7: main (main.cpp:19)
+          n2: 8290304 0x406335: MySDL::RenderText(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, SDL_Color) (MySDL.cpp:218)
+           n1: 7946240 0x40686B: MySDL::DrawTime(Timer*) (MySDL.cpp:272)
+            n1: 7946240 0x406677: MySDL::drawGame() (MySDL.cpp:256)
+             n0: 7946240 0x4029FF: main (main.cpp:25)
+           n0: 344064 in 2 places, all below massif's threshold (1.00%)
+          n1: 1835008 0x40528A: MySDL::CreateWinRen(char const*) (MySDL.cpp:36)
+           n0: 1835008 0x40298C: main (main.cpp:17)
+          n0: 270336 in 3 places, all below massif's threshold (1.00%)
+  n1: 2818048 0xAE7A564: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n1: 2818048 0xAE7A5B8: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+    n1: 2818048 0xAE34ADB: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+     n1: 2818048 0xAE353C8: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+      n1: 2818048 0xAE356D4: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+       n1: 2818048 0xAE4A41F: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+        n1: 2818048 0xAE33B3A: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+         n2: 2818048 0xAC2C4B2: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+          n1: 2818048 0xAC181FA: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+           n1: 2818048 0xAC29561: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+            n1: 2818048 0xAB26978: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+             n1: 2818048 0xAB27DE5: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+              n1: 2818048 0x4E9B6F4: GL_RenderCopy (SDL_render_gl.c:1343)
+               n1: 2818048 0x4E91FB6: SDL_RenderCopy_REAL (SDL_render.c:1761)
+                n1: 2818048 0x4054C4: MySDL::DrawBack() (MySDL.cpp:56)
+                 n1: 2818048 0x4063C3: MySDL::drawGame() (MySDL.cpp:230)
+                  n0: 2818048 0x4029FF: main (main.cpp:25)
+          n0: 0 in 1 place, below massif's threshold (1.00%)
+  n0: 69632 in 2 places, all below massif's threshold (1.00%)
+ n1: 16793616 0xAC67908: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+  n1: 16793616 0xAE30DFA: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n1: 16793616 0xADE0B6F: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+    n1: 16793616 0x8FC55FD: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+     n1: 16793616 0x8FC56B1: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+      n1: 16793616 0x8F93DB9: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+       n1: 16793616 0x8F940B7: glXCreateContext (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+        n2: 16793616 0x4F15337: X11_GL_CreateContext (SDL_x11opengl.c:593)
+         n1: 16793616 0x4F0388E: SDL_GL_CreateContext_REAL (SDL_video.c:3276)
+          n1: 16793616 0x4E98CCE: GL_CreateRenderer (SDL_render_gl.c:456)
+           n1: 16793616 0x4E8E047: SDL_CreateRenderer_REAL (SDL_render.c:265)
+            n1: 16793616 0x4051BA: MySDL::CreateWinRen(char const*) (MySDL.cpp:26)
+             n0: 16793616 0x40298C: main (main.cpp:17)
+         n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 5771876 0xAD4E0C0: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+  n0: 4802980 in 1143 places, all below massif's threshold (1.00%)
+  n1: 968896 0xAD4EA4D: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n0: 968896 in 2 places, all below massif's threshold (1.00%)
+ n1: 5600000 0x40B6E7: Texture::Texture(char const*, int, int) (Texture.cpp:10)
+  n0: 5600000 0x40289F: main (main.cpp:7)
+ n1: 2915616 0xABA6212: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+  n1: 2915616 0xAC585F6: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n1: 2915616 0xAC959C6: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+    n1: 2915616 0xAE30E2D: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+     n1: 2915616 0xADE0B6F: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+      n1: 2915616 0x8FC55FD: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+       n1: 2915616 0x8FC56B1: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+        n1: 2915616 0x8F93DB9: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+         n1: 2915616 0x8F940B7: glXCreateContext (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+          n2: 2915616 0x4F15337: X11_GL_CreateContext (SDL_x11opengl.c:593)
+           n1: 2915616 0x4F0388E: SDL_GL_CreateContext_REAL (SDL_video.c:3276)
+            n1: 2915616 0x4E98CCE: GL_CreateRenderer (SDL_render_gl.c:456)
+             n1: 2915616 0x4E8E047: SDL_CreateRenderer_REAL (SDL_render.c:265)
+              n1: 2915616 0x4051BA: MySDL::CreateWinRen(char const*) (MySDL.cpp:26)
+               n0: 2915616 0x40298C: main (main.cpp:17)
+           n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 1746551 in 425 places, all below massif's threshold (1.00%)
+ n2: 1416554 0xABA61BD: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+  n1: 1356992 0xAC0C73D: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n0: 1356992 in 14 places, all below massif's threshold (1.00%)
+  n0: 59562 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=80
+#-----------
+time=3115714217
+mem_heap_B=60790325
+mem_heap_extra_B=657235
+mem_stacks_B=0
+heap_tree=detailed
+n7: 60790325 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 26537984 0xB624D1F: ??? (in /usr/lib/x86_64-linux-gnu/libdrm_intel.so.1.0.0)
+  n1: 23388160 0xAE77E9E: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n1: 23388160 0xAE78201: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+    n1: 23388160 0xABE57E9: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+     n1: 23388160 0xABE5A30: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+      n1: 23388160 0xABE5E56: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+       n1: 23388160 0x4E981F2: GL_UpdateTexture (SDL_render_gl.c:868)
+        n1: 23388160 0x4E8EF6C: SDL_UpdateTexture_REAL.part.4 (SDL_render.c:833)
+         n4: 23388160 0x4E92F5F: SDL_CreateTextureFromSurface_REAL (SDL_render.c:813)
+          n1: 12582912 0x40BBF0: Rocket::Rocket() (Rocket.cpp:7)
+           n2: 12582912 0x407124: Worm::Worm(int, int) (Worm.cpp:36)
+            n1: 6291456 0x408899: Control::createTeams(int) (Control.cpp:308)
+             n0: 6291456 0x4029C7: main (main.cpp:19)
+            n1: 6291456 0x4088DD: Control::createTeams(int) (Control.cpp:310)
+             n0: 6291456 0x4029C7: main (main.cpp:19)
+          n2: 8699904 0x406335: MySDL::RenderText(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, SDL_Color) (MySDL.cpp:218)
+           n1: 8355840 0x40686B: MySDL::DrawTime(Timer*) (MySDL.cpp:272)
+            n1: 8355840 0x406677: MySDL::drawGame() (MySDL.cpp:256)
+             n0: 8355840 0x4029FF: main (main.cpp:25)
+           n0: 344064 in 2 places, all below massif's threshold (1.00%)
+          n1: 1835008 0x40528A: MySDL::CreateWinRen(char const*) (MySDL.cpp:36)
+           n0: 1835008 0x40298C: main (main.cpp:17)
+          n0: 270336 in 3 places, all below massif's threshold (1.00%)
+  n1: 3080192 0xAE7A564: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n1: 3080192 0xAE7A5B8: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+    n1: 3080192 0xAE34ADB: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+     n1: 3080192 0xAE353C8: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+      n1: 3080192 0xAE356D4: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+       n1: 3080192 0xAE4A41F: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+        n1: 3080192 0xAE33B3A: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+         n2: 3080192 0xAC2C4B2: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+          n1: 3080192 0xAC181FA: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+           n1: 3080192 0xAC29561: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+            n1: 3080192 0xAB26978: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+             n1: 3080192 0xAB27DE5: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+              n1: 3080192 0x4E9B6F4: GL_RenderCopy (SDL_render_gl.c:1343)
+               n1: 3080192 0x4E91FB6: SDL_RenderCopy_REAL (SDL_render.c:1761)
+                n1: 3080192 0x4054C4: MySDL::DrawBack() (MySDL.cpp:56)
+                 n1: 3080192 0x4063C3: MySDL::drawGame() (MySDL.cpp:230)
+                  n0: 3080192 0x4029FF: main (main.cpp:25)
+          n0: 0 in 1 place, below massif's threshold (1.00%)
+  n0: 69632 in 2 places, all below massif's threshold (1.00%)
+ n1: 16793616 0xAC67908: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+  n1: 16793616 0xAE30DFA: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n1: 16793616 0xADE0B6F: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+    n1: 16793616 0x8FC55FD: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+     n1: 16793616 0x8FC56B1: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+      n1: 16793616 0x8F93DB9: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+       n1: 16793616 0x8F940B7: glXCreateContext (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+        n2: 16793616 0x4F15337: X11_GL_CreateContext (SDL_x11opengl.c:593)
+         n1: 16793616 0x4F0388E: SDL_GL_CreateContext_REAL (SDL_video.c:3276)
+          n1: 16793616 0x4E98CCE: GL_CreateRenderer (SDL_render_gl.c:456)
+           n1: 16793616 0x4E8E047: SDL_CreateRenderer_REAL (SDL_render.c:265)
+            n1: 16793616 0x4051BA: MySDL::CreateWinRen(char const*) (MySDL.cpp:26)
+             n0: 16793616 0x40298C: main (main.cpp:17)
+         n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 5771876 0xAD4E0C0: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+  n0: 4802980 in 1143 places, all below massif's threshold (1.00%)
+  n1: 968896 0xAD4EA4D: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n0: 968896 in 2 places, all below massif's threshold (1.00%)
+ n1: 5600000 0x40B6E7: Texture::Texture(char const*, int, int) (Texture.cpp:10)
+  n0: 5600000 0x40289F: main (main.cpp:7)
+ n1: 2915616 0xABA6212: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+  n1: 2915616 0xAC585F6: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n1: 2915616 0xAC959C6: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+    n1: 2915616 0xAE30E2D: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+     n1: 2915616 0xADE0B6F: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+      n1: 2915616 0x8FC55FD: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+       n1: 2915616 0x8FC56B1: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+        n1: 2915616 0x8F93DB9: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+         n1: 2915616 0x8F940B7: glXCreateContext (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+          n2: 2915616 0x4F15337: X11_GL_CreateContext (SDL_x11opengl.c:593)
+           n1: 2915616 0x4F0388E: SDL_GL_CreateContext_REAL (SDL_video.c:3276)
+            n1: 2915616 0x4E98CCE: GL_CreateRenderer (SDL_render_gl.c:456)
+             n1: 2915616 0x4E8E047: SDL_CreateRenderer_REAL (SDL_render.c:265)
+              n1: 2915616 0x4051BA: MySDL::CreateWinRen(char const*) (MySDL.cpp:26)
+               n0: 2915616 0x40298C: main (main.cpp:17)
+           n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 1754679 in 425 places, all below massif's threshold (1.00%)
+ n2: 1416554 0xABA61BD: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+  n1: 1356992 0xAC0C73D: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n0: 1356992 in 14 places, all below massif's threshold (1.00%)
+  n0: 59562 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=81
+#-----------
+time=3118046959
+mem_heap_B=61458149
+mem_heap_extra_B=657731
+mem_stacks_B=0
+heap_tree=peak
+n7: 61458149 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 27193344 0xB624D1F: ??? (in /usr/lib/x86_64-linux-gnu/libdrm_intel.so.1.0.0)
+  n1: 23715840 0xAE77E9E: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n1: 23715840 0xAE78201: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+    n1: 23715840 0xABE57E9: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+     n1: 23715840 0xABE5A30: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+      n1: 23715840 0xABE5E56: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+       n1: 23715840 0x4E981F2: GL_UpdateTexture (SDL_render_gl.c:868)
+        n1: 23715840 0x4E8EF6C: SDL_UpdateTexture_REAL.part.4 (SDL_render.c:833)
+         n4: 23715840 0x4E92F5F: SDL_CreateTextureFromSurface_REAL (SDL_render.c:813)
+          n1: 12582912 0x40BBF0: Rocket::Rocket() (Rocket.cpp:7)
+           n2: 12582912 0x407124: Worm::Worm(int, int) (Worm.cpp:36)
+            n1: 6291456 0x408899: Control::createTeams(int) (Control.cpp:308)
+             n0: 6291456 0x4029C7: main (main.cpp:19)
+            n1: 6291456 0x4088DD: Control::createTeams(int) (Control.cpp:310)
+             n0: 6291456 0x4029C7: main (main.cpp:19)
+          n2: 9027584 0x406335: MySDL::RenderText(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, SDL_Color) (MySDL.cpp:218)
+           n1: 8683520 0x40686B: MySDL::DrawTime(Timer*) (MySDL.cpp:272)
+            n1: 8683520 0x406677: MySDL::drawGame() (MySDL.cpp:256)
+             n0: 8683520 0x4029FF: main (main.cpp:25)
+           n0: 344064 in 2 places, all below massif's threshold (1.00%)
+          n1: 1835008 0x40528A: MySDL::CreateWinRen(char const*) (MySDL.cpp:36)
+           n0: 1835008 0x40298C: main (main.cpp:17)
+          n0: 270336 in 3 places, all below massif's threshold (1.00%)
+  n1: 3407872 0xAE7A564: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n1: 3407872 0xAE7A5B8: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+    n1: 3407872 0xAE34ADB: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+     n1: 3407872 0xAE353C8: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+      n1: 3407872 0xAE356D4: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+       n1: 3407872 0xAE4A41F: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+        n1: 3407872 0xAE33B3A: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+         n2: 3407872 0xAC2C4B2: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+          n1: 3407872 0xAC181FA: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+           n1: 3407872 0xAC29561: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+            n1: 3407872 0xAB26978: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+             n1: 3407872 0xAB27DE5: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+              n1: 3407872 0x4E9B6F4: GL_RenderCopy (SDL_render_gl.c:1343)
+               n1: 3407872 0x4E91FB6: SDL_RenderCopy_REAL (SDL_render.c:1761)
+                n1: 3407872 0x4054C4: MySDL::DrawBack() (MySDL.cpp:56)
+                 n1: 3407872 0x4063C3: MySDL::drawGame() (MySDL.cpp:230)
+                  n0: 3407872 0x4029FF: main (main.cpp:25)
+          n0: 0 in 1 place, below massif's threshold (1.00%)
+  n0: 69632 in 2 places, all below massif's threshold (1.00%)
+ n1: 16793616 0xAC67908: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+  n1: 16793616 0xAE30DFA: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n1: 16793616 0xADE0B6F: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+    n1: 16793616 0x8FC55FD: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+     n1: 16793616 0x8FC56B1: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+      n1: 16793616 0x8F93DB9: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+       n1: 16793616 0x8F940B7: glXCreateContext (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+        n2: 16793616 0x4F15337: X11_GL_CreateContext (SDL_x11opengl.c:593)
+         n1: 16793616 0x4F0388E: SDL_GL_CreateContext_REAL (SDL_video.c:3276)
+          n1: 16793616 0x4E98CCE: GL_CreateRenderer (SDL_render_gl.c:456)
+           n1: 16793616 0x4E8E047: SDL_CreateRenderer_REAL (SDL_render.c:265)
+            n1: 16793616 0x4051BA: MySDL::CreateWinRen(char const*) (MySDL.cpp:26)
+             n0: 16793616 0x40298C: main (main.cpp:17)
+         n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 5771876 0xAD4E0C0: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+  n0: 4802980 in 1143 places, all below massif's threshold (1.00%)
+  n1: 968896 0xAD4EA4D: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n0: 968896 in 2 places, all below massif's threshold (1.00%)
+ n1: 5600000 0x40B6E7: Texture::Texture(char const*, int, int) (Texture.cpp:10)
+  n0: 5600000 0x40289F: main (main.cpp:7)
+ n1: 2915616 0xABA6212: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+  n1: 2915616 0xAC585F6: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n1: 2915616 0xAC959C6: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+    n1: 2915616 0xAE30E2D: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+     n1: 2915616 0xADE0B6F: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+      n1: 2915616 0x8FC55FD: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+       n1: 2915616 0x8FC56B1: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+        n1: 2915616 0x8F93DB9: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+         n1: 2915616 0x8F940B7: glXCreateContext (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0)
+          n2: 2915616 0x4F15337: X11_GL_CreateContext (SDL_x11opengl.c:593)
+           n1: 2915616 0x4F0388E: SDL_GL_CreateContext_REAL (SDL_video.c:3276)
+            n1: 2915616 0x4E98CCE: GL_CreateRenderer (SDL_render_gl.c:456)
+             n1: 2915616 0x4E8E047: SDL_CreateRenderer_REAL (SDL_render.c:265)
+              n1: 2915616 0x4051BA: MySDL::CreateWinRen(char const*) (MySDL.cpp:26)
+               n0: 2915616 0x40298C: main (main.cpp:17)
+           n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 1767143 in 425 places, all below massif's threshold (1.00%)
+ n2: 1416554 0xABA61BD: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+  n1: 1356992 0xAC0C73D: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+   n0: 1356992 in 14 places, all below massif's threshold (1.00%)
+  n0: 59562 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=82
+#-----------
+time=3121439498
+mem_heap_B=60502389
+mem_heap_extra_B=657019
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=83
+#-----------
+time=3124779415
+mem_heap_B=60631712
+mem_heap_extra_B=650576
+mem_stacks_B=0
+heap_tree=empty
